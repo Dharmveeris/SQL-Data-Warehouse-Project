@@ -24,6 +24,10 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## License
 This project is licensed under [MIT License](LICENSE). You are free to use modify and share this project with proper attribution.
 
+### About this project
+- This project was built by following 'Data with Baraa' SQL course to learn Medallion architecture and SQL Server ETL practices hands-on.
+- All code was written and debugged independently.
+
 ## About Me
 Hi there! I'm **Dharmveer**. I am starting my journey in analytics with this project.
 
