@@ -5,12 +5,18 @@ Develop a modern data warehouse using SQL to consolidate sales data, enabling an
 
 #### Specifications
 - **Data Source**: Import data from two source systems (CRM and ERP) Provided as CSV files.
-- **Data Quality**: Clean and resolve data quality issues prior to anlysis.
+- **Data Quality**: Clean and resolve data quality issues prior to analysis.
 - **Integration**: Combine both source systems into one single , user-friendly  data model designed for analytical queries.
 - **Scope**: Focus on the latest dataset only, historization of data is not required.
 - **Documentation**: Provide clear documentation for the data model to support the business stakeholders and analytical teams.
 
 ![data_architecture](docs/data_architecture.png)
+
+### Repository structure
+- **datasets/** — Source CSV files from the CRM and ERP systems, used as raw input for the pipeline.
+- **docs/** — Architecture diagram, data flow diagram, and data catalog documenting the gold-layer tables.
+- **scripts/** — All SQL used to build the warehouse, organized by Medallion layer (bronze → silver → gold).
+- **tests/** — Scripts that check data quality after each load (e.g. null checks, duplicate checks).
 
 ### BI: Analytics and Reporting (Data Analysis)
 #### Objective
